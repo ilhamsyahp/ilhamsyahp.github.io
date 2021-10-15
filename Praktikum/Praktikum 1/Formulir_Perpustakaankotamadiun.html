@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Perpustakaan Madiun </title>
+</head>
+<body bgcolor="goldenrod">
+  <h1><a href="https://ilhamsyahp.github.io/index.html">MENU UTAMA</a></h1>
+<h2>Perpustakaan Madiun</h2>
+  <img src="/foto/perpustakaan.jpg" alt="perpustakaan" width="600" height="400"> <br></br>
+<form action=" formulir.html" method="get">
+Nama: <input type="text" name="nama" value="Masukan Nama" />
+<br />
+Password: <input type="password" name="password" />
+<br />
+Jenis Kelamin : 
+<input type="radio" name="jenis_kelamin" value="laki-laki" checked /> 
+Laki - Laki
+<input type="radio" name="jenis_kelamin" value="perempuan" /> 
+Perempuan
+<br />
+Tujuan: <input type="checkbox" name="ingin_membaca" /> Membaca Buku
+<input type="checkbox" name="ingin_meminjam" checked /> Meminjam Buku
+ <input type="checkbox" name="ingin_mengembalikan" /> Mengembalikan Buku
+<br />
+Lembaga:
+<select name="asal_Lembaga" >
+ <option value="Pelajar"> Pelajar</option>
+ <option>Pekerja</option>
+ <option value="Mahasiswa" selected>Mahasiswa</option>
+</select>
+<br />
+Masukan Saran :
+<textarea name="komentar" rows="5" cols="20">
+Silahkan katakan Saran dan masukan!
+</textarea>
+<br />
+<input type="submit" value="Mulai Proses!" >
+</form>
+</body>
+</html>
