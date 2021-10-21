@@ -1,0 +1,41 @@
+<html>
+<head>
+ <title>Rumah Sakit Madiun </title>
+</head>
+<body bgcolor="goldenrod">
+  <h1><a href="https://ilhamsyahp.github.io/index.html">MENU UTAMA</a></h1>
+ <h2 style="font-family:Helvetica">Selamat Di rumah sakit ini</h2>
+
+  <p style="font-family: Verdana;">Silahkan isi Formulir dibawah ini terlebih dahulu</p>
+  <img src="/foto/rumahsakit.jpg" alt="RumahSakit" width="600" height="400"> <br></br>
+<form action=" formulir.html" method="get">
+<table border="1"align="Left">
+<tr><td>Nama :</td><td><input type="text" ></td></tr>
+<tr><td>Password :</td><td><input type="password maxlength="8"></td></tr>
+<tr><td>Jenis Kelamin :</td></tr>
+<tr><td>Laki-Laki :</td><td><input type="radio" name="jenis_kelamin" value="laki-laki" checked /> </td></tr>
+<tr><td>Perempuan :</td><td><input type="radio" name="jenis_kelamin" value="perempuan" /></td></tr>
+<tr><td>Tujuan: </td><td><input type="checkbox" name="gawat" /> UGD
+<input type="checkbox" name="santuy" checked /> IGD
+<input type="checkbox" name="berobat" /> Rawat Jalan </tr></td>
+<tr><td>Asal Kota : </td><td>
+<select name="asal_Kota" >
+ <option value="asal-kota"> Madiun</option>
+ <option> Jogja </option>
+ <option> Ponorogo </option>
+ <option> Ngawi </option>
+ <option> Kediri </option>
+ <option> Surabaya </option>
+ <option value="asal-kota" selected> Mojokerto </option>
+</select></td></tr>
+<tr><td>Keluhan yang di Derita :</td><td>
+<textarea name="komentar" rows="5" cols="20">
+Isi Di sini!
+</textarea></tr></td>
+
+
+<tr><td></td><td><input type="submit" name="submit" value="Kirim"></td></tr>
+</table>
+</form>
+</body>
+</html>
